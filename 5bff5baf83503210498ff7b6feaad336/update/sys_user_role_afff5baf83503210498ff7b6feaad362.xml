@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Browse available training sessions, enroll in preferred schedules, and monitor the status of your enrollment.</description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1151896_sharkt_0.user_sharktraining</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>user_sharktraining</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 16:34:13</sys_created_on>
+        <sys_id>afff5baf83503210498ff7b6feaad362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1151896_sharkt_0.user_sharktraining</sys_name>
+        <sys_package display_value="SharkTraining" source="x_1151896_sharkt_0">5bff5baf83503210498ff7b6feaad336</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SharkTraining">5bff5baf83503210498ff7b6feaad336</sys_scope>
+        <sys_update_name>sys_user_role_afff5baf83503210498ff7b6feaad362</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 16:34:13</sys_updated_on>
+    </sys_user_role>
+</record_update>
