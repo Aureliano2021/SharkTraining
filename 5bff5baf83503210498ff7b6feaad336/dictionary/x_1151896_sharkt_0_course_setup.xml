@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9ee56b2383583210fbe2c765eeaad371" label="Course Setup" max_length="40" name="x_1151896_sharkt_0_course_setup" type="collection">
+        <element function_definition="Hours" hint="Total training hours" label="Training Duration" max_length="255" name="training_duration" type="integer"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element choice="3" default="1" label="Integration State" max_length="40" name="integration_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Integration Failure" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Starting" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Integrating" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Integration Sucess" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Translated Description" max_length="4000" name="translated_description" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>end_date</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 20:20:01</sys_created_on>
+        <sys_id>90a3d83f831c3210fbe2c765eeaad3dd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>end_date</sys_name>
+        <sys_package display_value="SharkTraining" source="x_1151896_sharkt_0">5bff5baf83503210498ff7b6feaad336</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SharkTraining">5bff5baf83503210498ff7b6feaad336</sys_scope>
+        <sys_update_name>sys_ui_policy_action_90a3d83f831c3210fbe2c765eeaad3dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 20:21:26</sys_updated_on>
+        <table>x_1151896_sharkt_0_training_schedule</table>
+        <ui_policy display_value="Teste">7df0947b831c3210fbe2c765eeaad3b0</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=90a3d83f831c3210fbe2c765eeaad3dd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SharkTraining">5bff5baf83503210498ff7b6feaad336</application>
+        <file_path/>
+        <instance_id>680e5772db92f95492f5684e13961996</instance_id>
+        <instance_name>dev208298</instance_name>
+        <name>sys_ui_policy_action_90a3d83f831c3210fbe2c765eeaad3dd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>end_date</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-06 20:20:01</sys_created_on><sys_id>90a3d83f831c3210fbe2c765eeaad3dd</sys_id><sys_mod_count>1</sys_mod_count><sys_name>end_date</sys_name><sys_package display_value="SharkTraining" source="x_1151896_sharkt_0">5bff5baf83503210498ff7b6feaad336</sys_package><sys_policy/><sys_scope display_value="SharkTraining">5bff5baf83503210498ff7b6feaad336</sys_scope><sys_update_name>sys_ui_policy_action_90a3d83f831c3210fbe2c765eeaad3dd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-06 20:21:26</sys_updated_on><table>x_1151896_sharkt_0_training_schedule</table><ui_policy display_value="Teste">7df0947b831c3210fbe2c765eeaad3b0</ui_policy><value/><value_action>ignore</value_action><visible>true</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=90a3d83f831c3210fbe2c765eeaad3dd"/></record_update>]]></payload>
+        <payload_hash>-1134065070</payload_hash>
+        <record_name>end_date</record_name>
+        <reverted_from/>
+        <source>0572afeb83183210fbe2c765eeaad3c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 20:21:26</sys_created_on>
+        <sys_id>c0045c3f831c3210fbe2c765eeaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199bb2fa6070000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 20:21:26</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>88045c3f331c3210bb630f2a681584be</update_guid>
+        <update_guid_history>88045c3f331c3210bb630f2a681584be:-1134065070,9fa35c3fff1c3210526c15968b232530:1929861518</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 20:22:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>4ca10f103cf84378a52656785513e244</sys_id>
+        <sys_metadata>90a3d83f831c3210fbe2c765eeaad3dd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>end_date</sys_name>
+        <sys_package display_value="SharkTraining" source="x_1151896_sharkt_0">5bff5baf83503210498ff7b6feaad336</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SharkTraining">5bff5baf83503210498ff7b6feaad336</sys_scope>
+        <sys_scope_delete display_value="">0448ea69841f48d8878e147b109b4640</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_90a3d83f831c3210fbe2c765eeaad3dd</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_90a3d83f831c3210fbe2c765eeaad3dd">c0045c3f831c3210fbe2c765eeaad3bf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 20:22:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

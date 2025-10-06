@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a549236783583210fbe2c765eeaad3af" extends="task" label="Enrollments" max_length="40" name="x_1151896_sharkt_0_enrollments" type="collection">
+        <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Begin Date" max_length="40" name="begin_date" type="glide_date"/>
+        <element label="Course" max_length="32" name="course" reference="x_1151896_sharkt_0_training_schedule" type="reference"/>
+    </element>
+</database>

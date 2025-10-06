@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>begin_date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Begin Date = Today or Later</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+	var parts;
+    // newValue vem no formato dd/MM/yyyy no portal
+	if (newValue.includes('/')){parts = newValue.split('/');}
+    if (newValue.includes('-')){parts = newValue.split('-');}
+
+	var day = parseInt(parts[0], 10);
+    var month = parseInt(parts[1], 10) - 1; 
+    var year = parseInt(parts[2], 10);
+
+    var inputDate = new Date(year, month, day);
+
+    var today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    if (inputDate.getTime() < today.getTime()) {
+		g_form.clearValue('begin_date');
+        g_form.showFieldMsg('begin_date','The start date must be today or later.', 'error');
+    }
+
+	g_form.clearValue('end_date');
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 20:38:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0267987f831c3210fbe2c765eeaad3ac</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Begin Date = Today or Later</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SharkTraining" source="x_1151896_sharkt_0">5bff5baf83503210498ff7b6feaad336</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SharkTraining">5bff5baf83503210498ff7b6feaad336</sys_scope>
+        <sys_update_name>sys_script_client_0267987f831c3210fbe2c765eeaad3ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 20:58:24</sys_updated_on>
+        <table>x_1151896_sharkt_0_training_schedule</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

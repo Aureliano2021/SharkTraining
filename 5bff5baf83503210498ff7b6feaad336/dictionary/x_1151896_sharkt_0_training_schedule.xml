@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="64b8272783583210fbe2c765eeaad3c1" label="Training Schedule" max_length="40" name="x_1151896_sharkt_0_training_schedule" type="collection">
+        <element label="Instructor" max_length="32" name="instructor" reference="sys_user" type="reference"/>
+        <element label="Course" max_length="32" name="course" reference="x_1151896_sharkt_0_course_setup" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Training Slots" max_length="40" name="training_slots" type="integer"/>
+        <element label="Begin Date" max_length="40" name="begin_date" type="glide_date"/>
+        <index name="index">
+            <element name="course"/>
+        </index>
+        <index name="index2">
+            <element name="instructor"/>
+        </index>
+    </element>
+</database>

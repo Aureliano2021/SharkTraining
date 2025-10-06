@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="integration_state" label="Integration State" language="en" table="x_1151896_sharkt_0_course_setup">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>integration_state</element>
+            <help/>
+            <hint/>
+            <label>Integration State</label>
+            <language>en</language>
+            <name>x_1151896_sharkt_0_course_setup</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-06 17:22:28</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Integration State</sys_name>
+            <sys_package display_value="SharkTraining" source="x_1151896_sharkt_0">5bff5baf83503210498ff7b6feaad336</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SharkTraining">5bff5baf83503210498ff7b6feaad336</sys_scope>
+            <sys_update_name>sys_documentation_x_1151896_sharkt_0_course_setup_integration_state_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-06 17:22:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
