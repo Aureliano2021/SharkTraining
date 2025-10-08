@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1151896_sharkt_0.EnrollmentValidator2</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>EnrollmentValidator2</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var EnrollmentValidator2 = Class.create();
+EnrollmentValidator2.prototype = {
+    initialize: function() {
+    },
+	hasExistingEnrollment: function(user_id, schedule_id) {
+        
+        var grEnrollment = new GlideRecord('x_1151896_sharkt_0_enrollments');
+        grEnrollment.addQuery('opened_by', userId);
+        grEnrollment.addQuery('training_schedule', scheduleId);
+        grEnrollment.query();
+
+        return gr.hasNext() ? 'true' : 'false';
+    },
+
+    type: 'EnrollmentValidator2'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-07 20:59:47</sys_created_on>
+        <sys_id>4795e58883e4b210fbe2c765eeaad395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EnrollmentValidator2</sys_name>
+        <sys_package display_value="SharkTraining" source="x_1151896_sharkt_0">5bff5baf83503210498ff7b6feaad336</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="SharkTraining">5bff5baf83503210498ff7b6feaad336</sys_scope>
+        <sys_update_name>sys_script_include_4795e58883e4b210fbe2c765eeaad395</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-07 20:59:47</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SharkTraining">5bff5baf83503210498ff7b6feaad336</application>
+        <file_path/>
+        <instance_id>680e5772db92f95492f5684e13961996</instance_id>
+        <instance_name>dev208298</instance_name>
+        <name>sys_script_include_4795e58883e4b210fbe2c765eeaad395</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1151896_sharkt_0.EnrollmentValidator2&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;EnrollmentValidator2&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var EnrollmentValidator2 = Class.create();
+EnrollmentValidator2.prototype = {
+    initialize: function() {
+    },
+	hasExistingEnrollment: function(user_id, schedule_id) {
+        
+        var grEnrollment = new GlideRecord('x_1151896_sharkt_0_enrollments');
+        grEnrollment.addQuery('opened_by', userId);
+        grEnrollment.addQuery('training_schedule', scheduleId);
+        grEnrollment.query();
+
+        return gr.hasNext() ? 'true' : 'false';
+    },
+
+    type: 'EnrollmentValidator2'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-07 20:59:47&lt;/sys_created_on&gt;&lt;sys_id&gt;4795e58883e4b210fbe2c765eeaad395&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;EnrollmentValidator2&lt;/sys_name&gt;&lt;sys_package display_value="SharkTraining" source="x_1151896_sharkt_0"&gt;5bff5baf83503210498ff7b6feaad336&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="SharkTraining"&gt;5bff5baf83503210498ff7b6feaad336&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_4795e58883e4b210fbe2c765eeaad395&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-07 20:59:47&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1123516003</payload_hash>
+        <record_name>EnrollmentValidator2</record_name>
+        <reverted_from/>
+        <source>0572afeb83183210fbe2c765eeaad3c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-07 20:59:47</sys_created_on>
+        <sys_id>ab56e98883e4b210fbe2c765eeaad3fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199c07920cf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-07 20:59:47</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>af56e9888ae4b210ef00c19a45c97bf9</update_guid>
+        <update_guid_history>af56e9888ae4b210ef00c19a45c97bf9:-1123516003</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-07 21:15:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>8151314956234c70acd521ddbad006c4</sys_id>
+        <sys_metadata>4795e58883e4b210fbe2c765eeaad395</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EnrollmentValidator2</sys_name>
+        <sys_package display_value="SharkTraining" source="x_1151896_sharkt_0">5bff5baf83503210498ff7b6feaad336</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="SharkTraining">5bff5baf83503210498ff7b6feaad336</sys_scope>
+        <sys_scope_delete display_value="">0448ea69841f48d8878e147b109b4640</sys_scope_delete>
+        <sys_update_name>sys_script_include_4795e58883e4b210fbe2c765eeaad395</sys_update_name>
+        <sys_update_version display_value="sys_script_include_4795e58883e4b210fbe2c765eeaad395">ab56e98883e4b210fbe2c765eeaad3fa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-07 21:15:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

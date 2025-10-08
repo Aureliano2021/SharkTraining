@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_1151896_sharkt_0_enrollments</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>triggered</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Dear ${opened_by.first_name},</p>
+<p>We acknowledge receipt of your enrollment request for the corporate training program. At this moment, your enrollment has been provisionally registered, and you are currently listed as enrolled in the course.</p>
+<p>However, please note that your participation is still subject to approval by your immediate supervisor. Should your supervisor approve the request, your enrollment will remain confirmed. In the event of a rejection, your enrollment will be automatically withdrawn from the system, and you will receive a notification via email informing you of the decision.</p>
+<p>Training Details:</p>
+<ul style="list-style-position: inside;">
+<li>Course Name: ${course.name}</li>
+<li>Number: ${number}</li>
+<li>Start Date: ${training_schedule.begin_date}</li>
+<li>End Date: ${training_schedule.end_date}</li>
+<li>Instructor: ${current.assigned_to.getDisplayValue()}</li>
+<li>Description: ${course.description}</li>
+<li>Duration: ${course.training_duration} hours</li>
+</ul>
+<p>If you have any questions or require further clarification, please do not hesitate to contact us.</p>
+<p>Sincerely,<br>SharkTraining Department<br>Example Company</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Training enrollment requested</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>opened_by</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Enrollment ${number} Status </subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-07 18:00:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d44db48083e0b210fbe2c765eeaad33a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Training enrollment requested</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SharkTraining" source="x_1151896_sharkt_0">5bff5baf83503210498ff7b6feaad336</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SharkTraining">5bff5baf83503210498ff7b6feaad336</sys_scope>
+        <sys_update_name>sysevent_email_action_d44db48083e0b210fbe2c765eeaad33a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-07 18:22:03</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
